@@ -1,0 +1,42 @@
+.FuncButtons {
+    flex: 2 1;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    font-size: 2rem;
+    font-weight: 100;
+    color: snow;
+}
+
+.FuncButtons Button {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.infoText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-left: auto;
+
+    user-select: none;
+    cursor: pointer;
+
+    @media screen and (max-width:356px) {
+        margin-left: 0;
+        align-items: flex-start;
+    }
+}
+
+.completedText,
+.totalText {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
